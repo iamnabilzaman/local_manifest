@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+          fetch="https://github.com/iamnabilzaman/" />
+  
+  <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="device-santoni" remote="git" revision="11.0" clone-depth="1"/>
+        <project path="vendor/xiaomi" name="vendor-santoni" remote="git" revision="11.0" clone-depth="1"/>
+        <project path="kernel/xiaomi/msm8937" name="L_soul_santoni_msm4.9" remote="git" revision="ss0500" clone-depth="1"/>
+
+</manifest>
